@@ -18,6 +18,7 @@ body{
 }
 
 section{
+    width: min(100%, 350px);
     margin-top: 64px;
     margin-bottom: 64px;
     border: 2px solid #333;
@@ -31,6 +32,7 @@ section{
 
 h1{
     font-size: 2rem;
+    text-align: center;
 }
 
 
@@ -39,7 +41,7 @@ h2{
 }
 @media screen and (min-width: 576px){
     section{
-        min-width: 400px;
+        min-width: 300px;
     }
 }
 @media screen and (min-width: 768px){

@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+html{
+    font-size: 1.5rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    margin: auto;
+    max-width: 800px;
+    background-image: url(/img/ML.jpeg);
+    background-size: cover;
+    font-weight: bolder;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+section{
+    margin-top: 64px;
+    margin-bottom: 64px;
+    border: 2px solid #333;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(215, 62%, 90%, 0.528);
+}
+
+h1{
+    font-size: 2rem;
+}
+
+
+h2{
+    font-size: 2rem;
+}
+@media screen and (min-width: 576px){
+    section{
+        min-width: 400px;
+    }
+}
+@media screen and (min-width: 768px){
+    section{
+        min-width: 500px;
+    }
+}
+@media screen and (min-width: 992px){
+    section{
+        min-width: 600px;
+    }
+}
+
+button{
+    margin-bottom: 8px;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.button_increment{
+    font-size: inherit;
+    font-family: inherit;
+    background-color: hsl(0, 0%, 96%);
+}
+
+.button_save{
+    font-size: inherit;
+    font-family: inherit;
+    background-color: hsla(240, 8%, 24%, 0.279);
+    color: whitesmoke;
+}
